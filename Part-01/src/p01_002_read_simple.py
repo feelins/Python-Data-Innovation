@@ -1,9 +1,8 @@
-from email import header
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 '''
-@File    :   read_simple.py
-@Time    :   2022/02/11 01:24:30
+@File    :   p01_001_read_simple.py
+@Time    :   2022/02/16 12:12:45
 @Author  :   feelins, shao 
 @Version :   1.0
 @Contact :   feipengshao@163.com
@@ -12,7 +11,7 @@ from email import header
 '''
 
 # here put the import lib
-my_file = r'Part-01\P01_001\data\my_txt.txt'
+my_file = r'Part-01\samples\my_txt.txt'
 with open(my_file, encoding='utf-8') as fid:
     file_content = [x.strip() for x in fid.readlines()]
 
