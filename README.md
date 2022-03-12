@@ -23,6 +23,16 @@ some basic scripts for linguistics
 [P01-002](src/p01_002_read_simple.py) 
 读文本内容，并打印在屏幕上  
 
+[P01-003](src/p01_003_internal_function_of_dict.py)
+字典的内置函数
+* dict.clear()清除字典
+* dict.get()搜索字典，如果发现返回关联的值。如果未找到，则返回None
+* dict.items(), 返回字典中的键值对列表
+* dict.keys(), dict.values(), 返回字典的键和值的列表
+* dict.pop(), 从字典中删除一个键
+* dict.popitem(), 从字典删除键值对，删除最后一个
+* dict.update(), 将字典与另一个字典或可迭代的键值对合并
+
 
 ## 第二部分 简单脚本
 本部分的代码多为能实现一个简单的小功能。  
