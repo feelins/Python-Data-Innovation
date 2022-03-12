@@ -11,7 +11,7 @@
 ## 第〇部分 相关文档
 
 * [Ubuntu 20.04.3 Anaconda安装及Python多版本虚拟环境配置](https://blog.csdn.net/shaopengfei/article/details/123440125)
-## 第一部分 入门
+## 第一部分 入门脚本
 本部分的脚本多为10行以内的代码量，主要目的是针对一个小小的知识点，了解一个概念或者一个用法。更适合于学习者了解某一个点的语法知识。   
 
 [P01-001](Part-01/src/p01_001_hello_world.py) 
@@ -39,6 +39,10 @@
 
 [P01-005](Part-01/src/p01_005_dict_orderby.py)
 对字典列表，根据键，值进行排序
+
+[P01-006](Part-01/src/p01_006_string_list_orderby.py)
+对字符串列表进行排序
+* sort 与 sorted 区别
 
 ## 第二部分 简单脚本
 本部分的代码多为能实现一个简单的小功能。  

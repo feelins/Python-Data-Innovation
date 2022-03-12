@@ -21,7 +21,7 @@ sample_lists = [
 sample_lists.sort(key=lambda item: item.get('Age'))
 print(sample_lists) # [{'Name': 'Sara', 'Age': 5}, {'Name': 'Tome', 'Age': 9}, {'Name': 'Jerry', 'Age': 10}]
 sample_lists.sort(key=lambda item: item.get('Name'))
-print(sample_lists) # [{'Name': 'Jerry', 'Age': 10}, {'Name': 'Sara', 'Age': 5}, {'Name': 'Tome', 'Age': 9}]
+print(sample_lists) # [{'Name': 'Sara', 'Age': 5}, {'Name': 'Tome', 'Age': 9}, {'Name': 'Jerry', 'Age': 10}]
 
 # 方法二
 from operator import itemgetter
