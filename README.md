@@ -14,17 +14,17 @@
 ## 第一部分 入门
 本部分的脚本多为10行以内的代码量，主要目的是针对一个小小的知识点，了解一个概念或者一个用法。更适合于学习者了解某一个点的语法知识。   
 
-[P01-001](src/p01_001_hello_world.py) 
+[P01-001](Part-01/src/p01_001_hello_world.py) 
 学习编程语言第一步，学会打印hello, world!。相关知识点是：
 * Python可以使用单引号，也可以使用双引号；
 * 如果在引号内部有引号，注意使用不同的就可以了；
 * 如果必须使用相同的符号，那么需要加转义符号，斜杠；
 * 本人习惯于所有引号位置都使用单引号，内部使用双引号； 
 
-[P01-002](src/p01_002_read_simple.py) 
+[P01-002](Part-01/src/p01_002_read_simple.py) 
 读文本内容，并打印在屏幕上  
 
-[P01-003](src/p01_003_internal_function_of_dict.py)
+[P01-003](Part-01/src/p01_003_internal_function_of_dict.py)
 字典的内置函数
 * dict.clear()清除字典
 * dict.get()搜索字典，如果发现返回关联的值。如果未找到，则返回None
@@ -33,6 +33,10 @@
 * dict.pop(), 从字典中删除一个键
 * dict.popitem(), 从字典删除键值对，删除最后一个
 * dict.update(), 将字典与另一个字典或可迭代的键值对合并
+
+[P01-004](Part-01/src/p01_004_merge_two_list_to_dict.py)
+用三种方法将两个列表，转化为字典， 使用zip函数
+
 
 
 ## 第二部分 简单脚本
@@ -44,3 +48,5 @@
 
 ## 第五部分 
 
+## 参考文档
+* [Python - 100天从新手到大师](https://github.com/jackfrued/Python-100-Days)
