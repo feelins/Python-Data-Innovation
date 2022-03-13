@@ -66,7 +66,7 @@ VS Code中使用Python相对路径问题
 
 ### [P02-003](Part-02/P02_003_FileNameOrder/p02_003_001_file_name_order.py) 文件名排序问题
 
-
+### [P02-004](Part-02/P02_004_Deep_Learning_from_Scratch) 《深度学习入门-基于Python的理论与实现》学习记录
 
 ## 第三部分 音频处理
 
