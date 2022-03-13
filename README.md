@@ -68,6 +68,10 @@ VS Code中使用Python相对路径问题
 
 ### [P02-004](Part-02/P02_004_Deep_Learning_from_Scratch) 《深度学习入门-基于Python的理论与实现》学习记录
 
+### [P02-005](Part-02/P02_005_Pandas) Pandas的一些学习知识点
+
+### [P02-006](Part-02/P02_006_Head_First_Python) 《Head First Python》学习记录
+
 ## 第三部分 音频处理
 
 ### [P03-001](Part-03/src/p03_001_read_wavform.py) 
