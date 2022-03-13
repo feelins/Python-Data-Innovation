@@ -51,14 +51,14 @@
 ## 第二部分 简单功能脚本
 本部分的代码多为能实现一个简单的小功能。  
 
-### [P02-001_ProgressBar] 进度条的一些实现形式
+### [P02-001_ProgressBar](Part-02/P02_001_ProgressBar) 进度条的一些实现形式
 * p02_001_alive_progress_bar.py, 有一些动画效果的进度条
 * p02_001_normal_progress_bar.py, 普通进度条
 * p02_001_progress_bar_iterations.py, 用于定义迭代次数的进度条
 * p02_001_progress_bar_with_time.py, 带时间进度条
 * p02_001_tqdm_progress_bar.py, tqdm进度条
 
-### [P02-002_Numpy] Numpy的一些学习知识点
+### [P02-002_Numpy](Part-02/P02_002_Numpy) Numpy的一些学习知识点
 
 
 
