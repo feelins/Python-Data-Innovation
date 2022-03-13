@@ -11,6 +11,7 @@
 ## 第〇部分 相关文档
 
 * [Ubuntu 20.04.3 Anaconda安装及Python多版本虚拟环境配置](https://blog.csdn.net/shaopengfei/article/details/123440125)
+* [VS Code中使用Python相对路径问题](https://blog.csdn.net/shaopengfei/article/details/123454659)
 ## 第一部分 入门脚本
 本部分的脚本多为10行以内的代码量，主要目的是针对一个小小的知识点，了解一个概念或者一个用法。更适合于学习者了解某一个点的语法知识。   
 
@@ -48,17 +49,22 @@
 以字节为单位获取字符串大小
 * 如何获取字符串的字节数
 
+### [P01-008](Part-01/src/p01_008_vscode_path_problem.py)
+VS Code中使用Python相对路径问题
+
 ## 第二部分 简单功能脚本
 本部分的代码多为能实现一个简单的小功能。  
 
-### [P02-001_ProgressBar](Part-02/P02_001_ProgressBar) 进度条的一些实现形式
+### [P02-001](Part-02/P02_001_ProgressBar) 进度条的一些实现形式
 * p02_001_alive_progress_bar.py, 有一些动画效果的进度条
 * p02_001_normal_progress_bar.py, 普通进度条
 * p02_001_progress_bar_iterations.py, 用于定义迭代次数的进度条
 * p02_001_progress_bar_with_time.py, 带时间进度条
 * p02_001_tqdm_progress_bar.py, tqdm进度条
 
-### [P02-002_Numpy](Part-02/P02_002_Numpy) Numpy的一些学习知识点
+### [P02-002](Part-02/P02_002_Numpy) Numpy的一些学习知识点
+
+### [P02-003](Part-02/P02_003_FileNameOrder/p02_003_001_file_name_order.py) 文件名排序问题
 
 
 
