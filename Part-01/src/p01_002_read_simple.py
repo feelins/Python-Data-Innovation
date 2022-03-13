@@ -11,7 +11,7 @@
 '''
 
 # here put the import lib
-my_file = r'Part-01\samples\my_txt.txt'
+my_file = r'../samples/my_txt.txt'
 with open(my_file, encoding='utf-8') as fid:
     file_content = [x.strip() for x in fid.readlines()]
 
