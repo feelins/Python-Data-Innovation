@@ -68,8 +68,10 @@ VS Code中使用Python相对路径问题
 
 
 
-
 ## 第三部分 音频处理
+
+### [P03-001](Part-03/src/p03_001_read_wavform.py) 
+基本的读取wav的操作
 
 ## 第四部分 文本处理
 
