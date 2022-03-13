@@ -79,7 +79,9 @@ VS Code中使用Python相对路径问题
 
 ## 第四部分 文本处理
 
-## 第五部分 
+## 第五部分 Praat标注相关
+
+## 第六部分 算法学习
 
 ## 参考文档
 * [Python - 100天从新手到大师](https://github.com/jackfrued/Python-100-Days)
