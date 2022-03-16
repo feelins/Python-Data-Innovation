@@ -77,6 +77,9 @@ VS Code中使用Python相对路径问题
 ### [P03-001](Part-03/src/p03_001_read_wavform.py) 
 基本的读取wav的操作
 
+### [P03-002](Part-03/src/p03_002_compute_wav_duration.py) 
+计算一个音频目录里的wav文件的总时长和每个文件的时长。
+
 ## 第四部分 文本处理
 
 ## 第五部分 Praat标注相关
