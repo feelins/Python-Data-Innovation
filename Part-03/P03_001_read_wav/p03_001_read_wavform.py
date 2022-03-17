@@ -17,7 +17,7 @@ import pylab as pl
 
 # ============ test the algorithm =============
 # read wave file and get parameters.
-fw = wave.open(r'../sample_data/000001.wav','rb')
+fw = wave.open(r'000001.wav','rb')
 params = fw.getparams()
 print(params)
 nchannels, sampwidth, framerate, nframes = params[:4]

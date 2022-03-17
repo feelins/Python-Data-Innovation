@@ -11,11 +11,11 @@
 '''
 
 # here put the import lib
-from unittest import result
 import wave
-import os
+import os,sys
 
-input_dir = r'Part-03\sample_data\p03_002_wavs' # 也可以用E:\Wave的目录形式
+print(sys.path[0])
+input_dir = r'sample_data' # 也可以用E:\Wave的目录形式
 wav_duration_result = input_dir + '_duration_result.txt' # 结果文件是直接在上面的目录上增加，相当于在音频的同级目录生成一个结果文件
 
 total_durtion = 0.0
