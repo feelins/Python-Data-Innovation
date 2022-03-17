@@ -88,7 +88,7 @@
 
 ### [P05-001](Part-05/P05_001_check_file_numbers/p05_001_check_file_numbers.py)  
 * 检查两个目录里文件对应情况，分别保存两个目录都有的文件，每个目录独有的文件，以及上述文件的log
-* 更多说明移步CSDN博客：[阅读原文](https://blog.csdn.net/shaopengfei/article/details/123454659)
+* 更多说明移步CSDN博客：[阅读原文]()
 
 ## 第六部分 算法学习
 
