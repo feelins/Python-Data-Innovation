@@ -52,6 +52,9 @@
 ### [P01-008](Part-01/src/p01_008_vscode_path_problem.py)
 * VS Code中使用Python相对路径问题
 
+### [P01-009](Part-01/src/p01_010_how_to_use_at.py)
+* python是如何实现两个变量交换的？
+
 ## 第二部分 简单功能脚本
 * 本部分的代码多为能实现一个简单的小功能。  
 
@@ -65,6 +68,8 @@
 ### [P02-002](Part-02/P02_002_Numpy) Numpy的一些学习知识点
 
 ### [P02-003](Part-02/P02_003_FileNameOrder/p02_003_001_file_name_order.py) 文件名排序问题
+* 文件名可以按包含的数字排序，而不是按整个文件名字符串排序
+* 更多说明移步CSDN博客：[阅读原文](https://blog.csdn.net/shaopengfei/article/details/123455273)
 
 ### [P02-004](Part-02/P02_004_Deep_Learning_from_Scratch) 《深度学习入门-基于Python的理论与实现》学习记录
 
@@ -88,7 +93,7 @@
 
 ### [P05-001](Part-05/P05_001_check_file_numbers/p05_001_check_file_numbers.py)  
 * 检查两个目录里文件对应情况，分别保存两个目录都有的文件，每个目录独有的文件，以及上述文件的log
-* 更多说明移步CSDN博客：[阅读原文]()
+* 更多说明移步CSDN博客：[阅读原文](https://blog.csdn.net/shaopengfei/article/details/123554296)
 
 ## 第六部分 算法学习
 
