@@ -89,6 +89,10 @@
 
 ### [P04-001](Part-04/P04_001_WordSegment)  前后项分词
 
+### [P04-002](Part-04/P04_002_Split_Text) 
+* 对一个有几列的文本，通过某种分割符分别保存
+
+
 ## 第五部分 Praat标注相关
 
 ### [P05-001](Part-05/P05_001_check_file_numbers/p05_001_check_file_numbers.py)  
