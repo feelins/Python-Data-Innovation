@@ -12,6 +12,7 @@
 
 * [Ubuntu 20.04.3 Anaconda安装及Python多版本虚拟环境配置](https://blog.csdn.net/shaopengfei/article/details/123440125)
 * [VS Code中使用Python相对路径问题](https://blog.csdn.net/shaopengfei/article/details/123454659)
+* [更优雅熟练的使用git-学习记录](https://blog.csdn.net/shaopengfei/article/details/123955385)
 ## 第一部分 入门脚本
 本部分的脚本多为10行以内的代码量，主要目的是针对一个小小的知识点，了解一个概念或者一个用法。更适合于学习者了解某一个点的语法知识。   
 
