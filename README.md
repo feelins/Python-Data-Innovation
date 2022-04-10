@@ -68,6 +68,7 @@
 | 分类目录  | 知识点 | 详情阅读 | 应用举例 |  
 | :-------: | :------------- | :---------: | :------------- | 
 | [P05-001](Part-05/P05_001_check_file_numbers/p05_001_check_file_numbers.py)  |* 检查两个目录里文件对应情况，分别保存两个目录都有的文件，<br>每个目录独有的文件，以及上述文件的log|  [阅读原文](https://blog.csdn.net/shaopengfei/article/details/123554296) | - | 
+| [P05-002](Part-05/P05_002_pitch_distance)  |* 通过基频曲线的距离做一个声调判别器|  [阅读原文](https://blog.csdn.net/shaopengfei/article/details/124058801) | - | 
 
 ## 第六部分 算法学习
 
