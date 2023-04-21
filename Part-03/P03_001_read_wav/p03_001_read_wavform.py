@@ -12,8 +12,8 @@
 
 # here put the import lib
 import wave
-import numpy as np
-import pylab as pl
+#import numpy as np
+#import pylab as pl
 
 # ============ test the algorithm =============
 # read wave file and get parameters.
