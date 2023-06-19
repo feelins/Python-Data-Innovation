@@ -1,5 +1,5 @@
-# Python-linguistics
-这个项目主要和语言学专业的数据处理，包括但不限于语音、文本等方面，使用Python的一些脚本和技巧，同时也面向初学者，提供短小精悍的一些练手学习的脚本。
+# Python-Data-Innovation
+这个项目主要是想从最基础的一些Python学习开始，包括了一些实现较小功能的脚本，后续也慢慢更新一些稍复杂的脚本，主要领域关注于语言学专业的数据处理，包括但不限于语音、文本等方面。
 > 欢迎关注公众号：极地语音工作室；
 > CSDN博客：[https://blog.csdn.net/shaopengfei](https://blog.csdn.net/shaopengfei)  
 
@@ -74,7 +74,8 @@
 
 | 分类目录  | 知识点 | 详情阅读 | 应用举例 |  
 | :-------: | :------------- | :---------: | :------------- | 
-| [P06-001](Part-06\P06_001_download_douban_info\p06_001_download_douban_book_movie_list.py)  |* 获取豆瓣的读书和影视列表|  [阅读原文]() | - | 
+| [P06-001](Part-06/P06_001_download_douban_info/p06_001_download_douban_book_movie_list.py)  |* 获取豆瓣的读书和影视列表|  [阅读原文]() | - | 
+| [P06-002](Part-06/P06_002_get_all_html_info_website/p06_002_get_all_html_info_website.py)  |* 获取某网站所有网页的内容|  [阅读原文]() | - | 
 
 ## 参考文档
 * [Python - 100天从新手到大师](https://github.com/jackfrued/Python-100-Days)
