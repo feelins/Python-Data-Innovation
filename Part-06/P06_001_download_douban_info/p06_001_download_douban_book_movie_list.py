@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+# -*-coding:utf-8 -*-
+'''
+@File    :   p06_001_download_douban_book_movie_list.py
+@Time    :   2023/06/19 17:16:22
+@Author  :   Feelins Shao 
+@Version :   1.0
+@Contact :   feipengshao@163.com
+@License :   (C)Copyright 2022-2023, Feelins Shao
+@Desc    :   None
+'''
+
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
