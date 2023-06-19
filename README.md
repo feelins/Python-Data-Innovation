@@ -22,7 +22,7 @@
 |  [P01-001](Part-01/src/p01_001_hello_world.py) | * 学习编程语言第一步，学会打印hello, world!; <br>* Python可以使用单引号，也可以使用双引号;   <br>* 如果在引号内部有引号，注意使用不同的就可以了; <br>* 如果必须使用相同的符号，那么需要加转义符号，斜杠; <br>* 笔者习惯于所有引号位置都使用单引号，内部使用双引号； | [阅读原文] | - |  
 |  [P01-002](Part-01/src/p01_002_read_simple.py)  | * 读文本内容，并打印在屏幕上 | [阅读原文] | - | 
 |  [P01-003](Part-01/src/p01_003_internal_function_of_dict.py) | * 字典的内置函数; <br>* dict.clear()清除字典; <br>* dict.get()搜索字典，如果发现返回关联的值。如果未找到，则返回None; <br>* dict.items(), 返回字典中的键值对列表; <br>* dict.keys(), dict.values(), 返回字典的键和值的列表; <br>* dict.pop(), 从字典中删除一个键; <br>* dict.popitem(), 从字典删除键值对，删除最后一个; <br>* dict.update(), 将字典与另一个字典或可迭代的键值对合并; <br>| [阅读原文] | - | 
-|  [P01-004](Part-01/src/p01_004_merge_two_list_to_dict.py)  | * 用三种方法将两个列表，转化为字典， 使用zip函数 | [阅读原文] | - | 
+| [P01-004](Part-01/src/p01_004_merge_two_list_to_dict.py)  | * 用三种方法将两个列表，转化为字典， 使用zip函数 | [阅读原文] | - | 
 | [P01-005](Part-01/src/p01_005_dict_orderby.py)  | * 对字典列表，根据键，值进行排序 | [阅读原文] | - | 
 | [P01-006](Part-01/src/p01_006_string_list_orderby.py) | * 对字符串列表进行排序 <br> * sort 与 sorted 区别 | [阅读原文] | - | 
 | [P01-007](Part-01/src/p01_007_string_orderby_byte.py) | * 以字节为单位获取字符串大小<br> * 如何获取字符串的字节数 | [阅读原文] | - | 
