@@ -46,6 +46,7 @@
 | [P02-004](Part-02/P02_004_Deep_Learning_from_Scratch) | <font color=orange>《深度学习入门-基于Python的理论与实现》学习记录</font> | [阅读原文] | - | 
 | [P02-005](Part-02/P02_005_Pandas)  | <font color=orange>Pandas的一些学习知识点</font> | [阅读原文] | - | 
 | [P02-006](Part-02/P02_006_Head_First_Python)  | <font color=orange>《Head First Python》学习记录</font> | [阅读原文] | - | 
+| [P02-007](Part-02/P02_007_Python_for_Data_Analysis)  | <font color=orange>《Python for Data Analysis》学习记录</font> | [阅读原文] | - |
 
 
 ## 第三部分 音频处理
