@@ -19,3 +19,4 @@
 |  [P02_5-1-2](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-1-2_DataFrame.py) | * DataFrame表示的是矩阵的数据表，它包含已排序的列集合，每一列都可以是不同的值类型; <br>* DataFrame既有行索引也有列索引，可视为共享相同索引的Series的字典；  <br>* 尽管是二维的，但是通过分层索引可以展现更高维度的数据; <br> | [阅读原文] | - | 
 |  [P02_5-1-3](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-1-3_index_object.py) | * pandas的索引对象是用于存储轴标签和其它元数据的，它的使用比较灵活，比如可以切片使用; <br>* 上述索引对象可以共享给其它数据结构使用；  | [阅读原文] | - |
 |  [P02_5-2-1](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-2-1_rebuild_index.py) | * Series调用reindex方法时，会将数据按新的索引进行排列，不存在的索引值会引入缺失值; <br>* 顺序数据，比如时间序列等，需要插值或者填值，method允许我们使用如ffill，向前插值的方法填充； <br>* DataFrame中，reindex可以改变行索引、列索引；  | [阅读原文] | - |
+|  [P02_5-2-2](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-2-2_drop_items.py) | * 轴向上删除数据；  | [阅读原文] | - |
