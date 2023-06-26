@@ -21,3 +21,4 @@
 |  [P02_5-2-1](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-2-1_rebuild_index.py) | * Series调用reindex方法时，会将数据按新的索引进行排列，不存在的索引值会引入缺失值; <br>* 顺序数据，比如时间序列等，需要插值或者填值，method允许我们使用如ffill，向前插值的方法填充； <br>* DataFrame中，reindex可以改变行索引、列索引；  | [阅读原文] | - |
 |  [P02_5-2-2](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-2-2_drop_items.py) | * 轴向上删除数据；  | [阅读原文] | - |
 |  [P02_5-2-3](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-2-3_index_select_filter.py) | * 索引、选择各种灵活的使用方式; <br>* 普通的Python切片是不包括尾巴的，但是请注意这里的切片！是包括的！！！； <br>* 根据一个布尔值数组切片或者选择数据；<br>* loc iloc灵活使用;  | [阅读原文] | - |
+|  [P02_5-2-4](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-2-4_integer_index.py) | * 尽量使用loc, iloc;  | [阅读原文] | - |
