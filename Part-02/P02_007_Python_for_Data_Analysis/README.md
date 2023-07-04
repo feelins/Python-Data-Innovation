@@ -22,6 +22,8 @@
 |  [P02_5-2-2](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-2-2_drop_items.py) | * 轴向上删除数据；  | [阅读原文] | - |
 |  [P02_5-2-3](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-2-3_index_select_filter.py) | * 索引、选择各种灵活的使用方式; <br>* 普通的Python切片是不包括尾巴的，但是请注意这里的切片！是包括的！！！； <br>* 根据一个布尔值数组切片或者选择数据；<br>* loc iloc灵活使用;  | [阅读原文] | - |
 |  [P02_5-2-4](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-2-4_integer_index.py) | * 尽量使用loc, iloc;  | [阅读原文] | - |
+|  [P02_007_6-1-2](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_007_6-1-2_write_to_csv.py) | * 将数据导出为逗号分隔的文件;  <br>* 可以禁止写入索引，和表头; <br>* 缺失值替换为NULL; <br>* 只保存指定的两列;这里报错？？？| [阅读原文] | - |
+|  [P02_007_6-1-3](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_007_6-1-3_use_split_csv.py) | * 使用Python内置的csv模块读取CSV文件; | [阅读原文] | - |
 
 
 ## 第6章 数据载入、存储及文件格式
