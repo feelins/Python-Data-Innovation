@@ -26,6 +26,7 @@
 |  [P02_007_6-1-3](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_007_6-1-3_use_split_csv.py) | * 使用Python内置的csv模块读取CSV文件; | [阅读原文] | - |
 |  [P02_007_6-4](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_007_6-4_query_database.py) | * 与数据库交互；<br>* 安装sqllite插件，打开ctrl+shift+p，输入sqllite，选择Open Database，选择新建的数据库，在左下方，会出现sqllite explorer，可以显示数据表格； | [阅读原文] | - |
 |  [P02_007_7-1-0](Part-02/P02_007_Python_for_Data_Analysis/Chap07/p02_007_7-1-0_about_null_value.py) | * NaN表示空值，数组中的None也会被表示为空值；<br> * 除了isnull判断空值，还有一个反函数，notnull; | [阅读原文] | - |
+|  [P02_007_7-1-1](Part-02/P02_007_Python_for_Data_Analysis/Chap07/p02_007_7-1-1_filter_null_values.py) | * 在Series上使用dropna会返回非空的数据和索引值；<br> * 引入how='all'参数， 将会只删除这一行里的元素全部为NA的行; <br> * 以上两个操作删除列，则加一个axis=1; <br> * 使用thresh=2过滤每一行中，至少有3个非空值，不满足的过滤掉，还可以使用0.7*len()的形式代表百分比； | [阅读原文] | - |
 
 
 ## 第6章 数据载入、存储及文件格式
