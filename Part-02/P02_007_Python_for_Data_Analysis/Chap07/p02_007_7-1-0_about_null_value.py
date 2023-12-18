@@ -25,7 +25,10 @@ if __name__ == '__main__':
 
     string_data = pd.Series(['aardvark', 'artichoke', np.nan, 'avocado'])
     print(string_data)
+    string_data[0] = None
+    print(string_data)
     print(string_data.isnull())
+    # NaN表示空值，数组中的None也会被表示为空值
 
     # 记录结束时间，计算运行时间
     end_time = time.time()

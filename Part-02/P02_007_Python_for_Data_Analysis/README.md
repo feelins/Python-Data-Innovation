@@ -25,6 +25,7 @@
 |  [P02_007_6-1-2](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_007_6-1-2_write_to_csv.py) | * 将数据导出为逗号分隔的文件;  <br>* 可以禁止写入索引，和表头; <br>* 缺失值替换为NULL; <br>* 只保存指定的两列;这里报错？？？| [阅读原文] | - |
 |  [P02_007_6-1-3](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_007_6-1-3_use_split_csv.py) | * 使用Python内置的csv模块读取CSV文件; | [阅读原文] | - |
 |  [P02_007_6-4](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_007_6-4_query_database.py) | * 与数据库交互；<br>* 安装sqllite插件，打开ctrl+shift+p，输入sqllite，选择Open Database，选择新建的数据库，在左下方，会出现sqllite explorer，可以显示数据表格； | [阅读原文] | - |
+|  [P02_007_7-1-0](Part-02/P02_007_Python_for_Data_Analysis/Chap07/p02_007_7-1-0_about_null_value.py) | * NaN表示空值，数组中的None也会被表示为空值；<br> * 除了isnull判断空值，还有一个反函数，notnull; | [阅读原文] | - |
 
 
 ## 第6章 数据载入、存储及文件格式
