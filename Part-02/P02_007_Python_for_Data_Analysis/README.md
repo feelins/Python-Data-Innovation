@@ -36,21 +36,7 @@
 
 
 ## 第7章 数据清洗与准备
-<style>
-table th:first-of-type {
-    width: 20%;
-}
-table th:nth-of-type(2) {
-    width: 60%;
-}
-table th:nth-of-type(3) {
-    width: 10%;
-}
-table th:nth-of-type(4) {
-    width: 10%;
-}
-</style>
-| 分类目录  | 知识点 | 详情阅读 | 应用举例 |  
+| 分类目录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  | 知识点 | 详情阅读 | 应用举例 |  
 | :-----------: | :------------- | :---------: | :------------- | 
 |  [7.1 处理缺失值](Chap07/p02_007_7-1-0_about_null_value.py) | * NaN表示空值，数组中的None也会被表示为空值；<br> * 除了isnull判断空值，还有一个反函数，notnull; | [阅读原文] | - |
 |  [7.1.1 过滤缺失值](Chap07/p02_007_7-1-1_filter_null_values.py) | * 在Series上使用dropna会返回非空的数据和索引值；<br> * 引入how='all'参数， 将会只删除这一行里的元素全部为NA的行; <br> * 以上两个操作删除列，则加一个axis=1; <br> * 使用thresh=2过滤每一行中，至少有3个非空值，不满足的过滤掉，还可以使用0.7*len()的形式代表百分比； | [阅读原文] | - |
