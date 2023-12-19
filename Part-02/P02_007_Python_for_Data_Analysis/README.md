@@ -22,13 +22,7 @@
 |  [P02_5-2-2](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-2-2_drop_items.py) | * 轴向上删除数据；  | [阅读原文] | - |
 |  [P02_5-2-3](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-2-3_index_select_filter.py) | * 索引、选择各种灵活的使用方式; <br>* 普通的Python切片是不包括尾巴的，但是请注意这里的切片！是包括的！！！； <br>* 根据一个布尔值数组切片或者选择数据；<br>* loc iloc灵活使用;  | [阅读原文] | - |
 |  [P02_5-2-4](Part-02/P02_007_Python_for_Data_Analysis/Chap05/p02_5-2-4_integer_index.py) | * 尽量使用loc, iloc;  | [阅读原文] | - |
-|  [P02_007_6-1-2](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_007_6-1-2_write_to_csv.py) | * 将数据导出为逗号分隔的文件;  <br>* 可以禁止写入索引，和表头; <br>* 缺失值替换为NULL; <br>* 只保存指定的两列;这里报错？？？| [阅读原文] | - |
-|  [P02_007_6-1-3](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_007_6-1-3_use_split_csv.py) | * 使用Python内置的csv模块读取CSV文件; | [阅读原文] | - |
-|  [P02_007_6-4](Chap06/p02_007_6-4_query_database.py) | * 与数据库交互；<br>* 安装sqllite插件，打开ctrl+shift+p，输入sqllite，选择Open Database，选择新建的数据库，在左下方，会出现sqllite explorer，可以显示数据表格； | [阅读原文] | - |
-|  [P02_007_7-1-0](Chap07/p02_007_7-1-0_about_null_value.py) | * NaN表示空值，数组中的None也会被表示为空值；<br> * 除了isnull判断空值，还有一个反函数，notnull; | [阅读原文] | - |
-|  [P02_007_7-1-1](Chap07/p02_007_7-1-1_filter_null_values.py) | * 在Series上使用dropna会返回非空的数据和索引值；<br> * 引入how='all'参数， 将会只删除这一行里的元素全部为NA的行; <br> * 以上两个操作删除列，则加一个axis=1; <br> * 使用thresh=2过滤每一行中，至少有3个非空值，不满足的过滤掉，还可以使用0.7*len()的形式代表百分比； | [阅读原文] | - |
-|  [P02_007_7-1-2](Chap07/p02_007_7-1-2_complete_null_values.py) | * 赋值一个常数；<br> * 可以分别对不同的列赋值不同的常数; <br> * fillna是生成一个新的对象，但是也可以通过inplace=True修改本身，同样适用于Series; <br> * 也可以使用一些插值方法； | [阅读原文] | - |
-|  [P02_007_7-2-1](Chap07/p02_007_7-2-1_drop_duplicate_values.py) | * 返回一个布尔值，Series，每一行是否存在重复值（与之前出现的行重复）；<br> * 返回的是DataFrame，将上面为False的部分保留下来; <br> * 根据name这一列去除重复的部分; <br> * 根据name这一列，去除重复，而且是保留最后一个出现的； | [阅读原文] | - |
+
 
 
 ## 第6章 数据载入、存储及文件格式
@@ -36,3 +30,15 @@
 | 分类目录  | 知识点 | 详情阅读 | 应用举例 |  
 | :-------: | :------------- | :---------: | :------------- | 
 |  [P02_6-1](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_6-1-0_read_write_txt.py) | * read_csv, read_table用法; <br> | [阅读原文] | - |  
+|  [P02_007_6-1-2](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_007_6-1-2_write_to_csv.py) | * 将数据导出为逗号分隔的文件;  <br>* 可以禁止写入索引，和表头; <br>* 缺失值替换为NULL; <br>* 只保存指定的两列;这里报错？？？| [阅读原文] | - |
+|  [P02_007_6-1-3](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_007_6-1-3_use_split_csv.py) | * 使用Python内置的csv模块读取CSV文件; | [阅读原文] | - |
+|  [P02_007_6-4](Chap06/p02_007_6-4_query_database.py) | * 与数据库交互；<br>* 安装sqllite插件，打开ctrl+shift+p，输入sqllite，选择Open Database，选择新建的数据库，在左下方，会出现sqllite explorer，可以显示数据表格； | [阅读原文] | - |
+
+
+## 第7章 数据清洗与准备
+| 分类目录  | 知识点 | 详情阅读 | 应用举例 |  
+| :-------: | :------------- | :---------: | :------------- | 
+|  [P02_007_7-1-0](Chap07/p02_007_7-1-0_about_null_value.py) | * NaN表示空值，数组中的None也会被表示为空值；<br> * 除了isnull判断空值，还有一个反函数，notnull; | [阅读原文] | - |
+|  [P02_007_7-1-1](Chap07/p02_007_7-1-1_filter_null_values.py) | * 在Series上使用dropna会返回非空的数据和索引值；<br> * 引入how='all'参数， 将会只删除这一行里的元素全部为NA的行; <br> * 以上两个操作删除列，则加一个axis=1; <br> * 使用thresh=2过滤每一行中，至少有3个非空值，不满足的过滤掉，还可以使用0.7*len()的形式代表百分比； | [阅读原文] | - |
+|  [P02_007_7-1-2](Chap07/p02_007_7-1-2_complete_null_values.py) | * 赋值一个常数；<br> * 可以分别对不同的列赋值不同的常数; <br> * fillna是生成一个新的对象，但是也可以通过inplace=True修改本身，同样适用于Series; <br> * 也可以使用一些插值方法； | [阅读原文] | - |
+|  [P02_007_7-2-1](Chap07/p02_007_7-2-1_drop_duplicate_values.py) | * 返回一个布尔值，Series，每一行是否存在重复值（与之前出现的行重复）；<br> * 返回的是DataFrame，将上面为False的部分保留下来; <br> * 根据name这一列去除重复的部分; <br> * 根据name这一列，去除重复，而且是保留最后一个出现的； | [阅读原文] | - |
