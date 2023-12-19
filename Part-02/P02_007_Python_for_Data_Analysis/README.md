@@ -27,7 +27,8 @@
 |  [P02_007_6-4](Part-02/P02_007_Python_for_Data_Analysis/Chap06/p02_007_6-4_query_database.py) | * 与数据库交互；<br>* 安装sqllite插件，打开ctrl+shift+p，输入sqllite，选择Open Database，选择新建的数据库，在左下方，会出现sqllite explorer，可以显示数据表格； | [阅读原文] | - |
 |  [P02_007_7-1-0](Part-02/P02_007_Python_for_Data_Analysis/Chap07/p02_007_7-1-0_about_null_value.py) | * NaN表示空值，数组中的None也会被表示为空值；<br> * 除了isnull判断空值，还有一个反函数，notnull; | [阅读原文] | - |
 |  [P02_007_7-1-1](Part-02/P02_007_Python_for_Data_Analysis/Chap07/p02_007_7-1-1_filter_null_values.py) | * 在Series上使用dropna会返回非空的数据和索引值；<br> * 引入how='all'参数， 将会只删除这一行里的元素全部为NA的行; <br> * 以上两个操作删除列，则加一个axis=1; <br> * 使用thresh=2过滤每一行中，至少有3个非空值，不满足的过滤掉，还可以使用0.7*len()的形式代表百分比； | [阅读原文] | - |
-|  [P02_007_7-1-2](Part-02/P02_007_Python_for_Data_Analysis/Chap07/p02_007_7-1-2_complete_null_values.py) | * 赋值一个常数；<br> * 可以分别对不同的列赋值不同的常数; <br> * fillna是生成一个新的对象，但是也可以通过inplace=True修改本身，同样适用于Series; <br> * 也可以使用一些插值方法； | [阅读原文] | -- |
+|  [P02_007_7-1-2](Part-02/P02_007_Python_for_Data_Analysis/Chap07/p02_007_7-1-2_complete_null_values.py) | * 赋值一个常数；<br> * 可以分别对不同的列赋值不同的常数; <br> * fillna是生成一个新的对象，但是也可以通过inplace=True修改本身，同样适用于Series; <br> * 也可以使用一些插值方法； | [阅读原文] | - |
+|  [P02_007_7-2-1](Part-02/P02_007_Python_for_Data_Analysis/Chap07/p02_007_7-2-1_drop_duplicate_values.py) | * 返回一个布尔值，Series，每一行是否存在重复值（与之前出现的行重复）；<br> * 返回的是DataFrame，将上面为False的部分保留下来; <br> * 根据name这一列去除重复的部分; <br> * 根据name这一列，去除重复，而且是保留最后一个出现的； | [阅读原文] | - |
 
 
 ## 第6章 数据载入、存储及文件格式
