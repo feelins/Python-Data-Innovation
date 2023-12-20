@@ -43,3 +43,4 @@
 |  [7.1.2 补全缺失值](Chap07/p02_007_7-1-2_complete_null_values.py) | * 赋值一个常数；<br> * 可以分别对不同的列赋值不同的常数; <br> * fillna是生成一个新的对象，但是也可以通过inplace=True修改本身，同样适用于Series; <br> * 也可以使用一些插值方法； | [阅读原文] | - |
 |  [7.2.1 删除重复值](Chap07/p02_007_7-2-1_drop_duplicate_values.py) | * 返回一个布尔值，Series，每一行是否存在重复值（与之前出现的行重复）；<br> * 返回的是DataFrame，将上面为False的部分保留下来; <br> * 根据name这一列去除重复的部分; <br> * 根据name这一列，去除重复，而且是保留最后一个出现的； | [阅读原文] | - |
 |  [7.2.2 使用映射数据转换](Chap07/p02_007_7-2-2_trans_data_with_map_dict_or_function.py) | * 也可以通过映射函数实现，对数据转换；<br> | [阅读原文] | - |
+|  [7.2.3 替代值](Chap07/p02_007_7-2-3_replace_values.py) | * 相对于fillna，是通用的值替换的方法；<br> | [阅读原文] | - |
