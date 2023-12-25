@@ -47,3 +47,4 @@
 |  [7.2.4 重命名轴索引](Chap07/p02_007_7-2-4_rename_column_index.py) | * 重命名；<br> | [阅读原文] | - |
 |  [7.2.5 离散化和分箱](Chap07/p02_007_7-2-5_discrete_cut_bins.py) | * 可以根据最大值，最小值，计算出平均出来的箱区间；<br> | [阅读原文] | - |
 |  [7.2.6 检测和过滤异常值](Chap07/p02_007_7-2-6_detect_filter_unusual_values.py) | * 检测和过滤异常值；<br> | [阅读原文] | - |
+|  [7.3.3 pandas中的向量化字符串函数](Chap07/p02_007_7-3-3_vectorized_string_function.py) | * pandas中的向量化字符串函数；<br> | [阅读原文] | - |
