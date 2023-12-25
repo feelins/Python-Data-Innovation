@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*-coding:utf-8 -*-
 '''
-@File    :   p02_007_8-1-0_multi_index.py
-@Time    :   2023/12/25 17:39:03
+@File    :   p02_007_8-1-2_sumup_by_levels.py
+@Time    :   2023/12/25 19:41:41
 @Author  :   Feelins Shao 
 @Version :   1.0
 @Contact :   feipengshao@163.com
 @License :   (C)Copyright 2022-2023, Feelins Shao
-@Desc    :   8.1 分层索引
+@Desc    :   8.1.2 按层级进行汇总统计
 '''
 
 
@@ -21,27 +21,29 @@ if __name__ == '__main__':
     start_time = time.time()
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
     logging.info('开始: ')
-    
-    data = pd.Series(np.random.randn(9), index=[['a', 'a', 'a', 'b', 'b', 'c', 'c', 'd', 'd'], [1, 2, 3, 1, 3, 1, 2, 2, 3]])
-    logging.info('在一个轴向上拥有多个索引层级')
-    print(data)
-    logging.info('使用MultiIndex作为索引的美化视图')
-    print(data.index)
-    print(data['b'])
-    print(data['b' : 'c'])
-    print(data.loc[['b', 'd']])
-    print(data.loc[:, 2]) # 这个代表是a, b, c，第一层的所有行，这里面所有第二层索引为2的值
-    print(data.unstack())
 
-    # 每个轴都可以拥有分层索引
     frame = pd.DataFrame(np.arange(12).reshape((4, 3)), index=[['ab', 'ac', 'bc', 'bd'], [1, 2, 1, 2]], columns=[['Ohio', 'Ohio', 'Colorado'], ['Green', 'Red', 'Green']])
-    print(frame)
-    logging.info('分层的层级可以有名称')
+    
     frame.index.names = ['key1', 'key2']
     frame.columns.names = ['state', 'color']
     print(frame)
-    print(frame['Ohio'])
+    
+    # print(frame.sum(level='key2', axis=0)) #??????????????????????????
+# Out[27]: 
+# state  Ohio     Colorado
+# color Green Red    Green
+# key2                    
+# 1         6   8       10
+# 2        12  14       16
 
+# In [28]: frame.sum(level='color', axis=1)
+# Out[28]: 
+# color      Green  Red
+# key1 key2            
+# a    1         2    1
+#      2         8    4
+# b    1        14    7
+#      2        20   10
 
 
     # 记录结束时间，计算运行时间
