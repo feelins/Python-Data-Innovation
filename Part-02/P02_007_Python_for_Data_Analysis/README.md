@@ -55,3 +55,4 @@
 |  [8.1 分层索引](Chap08/p02_007_8-1-0_multi_index.py) | * 使用MultiIndex作为索引的美化视图；<br> | [阅读原文] | - |
 |  [8.1.1 重排序和层级排序](Chap08/p02_007_8-1-1_swap_level_re_sort.py) | * swaplevel接收两个层级的序号，或者层级名称，顺序变化了之后，数据不变；<br> * sort_index在单一层级上对数据！！！进行排序；<br> | [阅读原文] | - |
 |  [8.1.2 按层级进行汇总统计](Chap08/p02_007_8-1-2_sumup_by_levels.py) | * 这部分不成功；<br> | [阅读原文] | - |
+|  [8.2.1 数据库风格的DataFrame连接](Chap08/p02_007_8-2-1_merge_concat_dataset_style.py) | * merge默认情况下做的是inner，内连接，按交集；<br> | [阅读原文] | - |
