@@ -41,7 +41,7 @@
 | 分类目录  | 知识点 | 详情阅读 | 应用举例 |  
 | :-------: | :------------- | :---------: | :------------- | 
 | [P02-001](Part-02/P02_001_ProgressBar) | <font color=orange>进度条的一些实现形式</font><br>* p02_001_alive_progress_bar.py, 有一些动画效果的进度条<br>* p02_001_normal_progress_bar.py, 普通进度条<br>* p02_001_progress_bar_iterations.py, 用于定义迭代次数的进度条<br>* p02_001_progress_bar_with_time.py, 带时间进度条<br>* p02_001_tqdm_progress_bar.py, tqdm进度条<br>  | [阅读原文] | - | 
-| [P02-002](Part-02/P02_002_Numpy) | <font color=orange>Numpy的一些学习知识点</font> | [阅读原文] | - | 
+| [P02-002](Part-02/P02_002_) | <font color=orange></font> | [阅读原文] | - | 
 | [P02-003](Part-02/P02_003_FileNameOrder/p02_003_001_file_name_order.py) | <font color=orange>文件名排序问题</font><br> * 文件名可以按包含的数字排序，而不是按整个文件名字符串排序 | [阅读原文](https://blog.csdn.net/shaopengfei/article/details/123455273) | - | 
 | [P02-004](Part-02/P02_004_Deep_Learning_from_Scratch) | <font color=orange>《深度学习入门-基于Python的理论与实现》学习记录</font> | [阅读原文] | - | 
 | [P02-005](Part-02/P02_005_Pandas)  | <font color=orange>Pandas的一些学习知识点</font> | [阅读原文] | - | 
