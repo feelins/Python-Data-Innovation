@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*-coding:utf-8 -*-
 '''
-@File    :   p01_016_bool.py
-@Time    :   2024/02/27 18:40:04
+@File    :   p01_017_calculation.py
+@Time    :   2024/02/29 09:14:39
 @Author  :   Feelins Shao 
 @Version :   1.0
 @Contact :   feipengshao@163.com
@@ -20,23 +20,16 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
     logging.info('开始: ')
     
-    bi8bo = '佳'
-    if bi8bo == '斯佳':
-        print('YES')
-    else:
-        print('NO')
+    a = 10
+    b = 20
+    a += b        # 相当于：a = a + b
+    a *= a + 50   # 相当于：a = a * (a + 50)
+    print(a)      # 这里会输出？
 
-    bi8bo = '男生'
-    judge = not ( bi8bo == '女生' )
-    if judge:
-        print('YES')
-    else:
-        print('NO')
-
-    # A. YES YES
-    # B. YES NO
-    # C. NO YES
-    # D. NO NO
+    # A. 60
+    # B. 2400
+    # C. 100
+    # D. 600
 
 
     # 记录结束时间，计算运行时间
