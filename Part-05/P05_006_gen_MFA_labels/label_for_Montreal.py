@@ -58,8 +58,8 @@ if __name__ == '__main__':
     cantonese
     shanghai
     """
-    input_pinyin_file = r'/home/shaopf/study/mTTS_frontend/example_file/cantonese_script_pinyin.txt'
-    output_dict_file = r'/home/shaopf/study/mTTS_frontend/example_file/montreal_align_dict_cantonese.txt'
-    output_lab_align_path = r'/home/shaopf/study/mTTS_frontend/example_file/lab_align'
+    input_pinyin_file = r'cantonese_script_pinyin.txt'
+    output_dict_file = r'montreal_align_dict_cantonese.txt'
+    output_lab_align_path = r'lab_align'
     genDictLabWord(input_pinyin_file, output_lab_align_path, output_dict_file, 'cantonese')
     print('Done!')
