@@ -14,8 +14,8 @@
 import os
 import textgrid as tg
 
-input_tg_dir = r'oldTextGrid1'
-output_tg_dir = r'newtg'
+input_tg_dir = r'../oldTextGrid1'
+output_tg_dir = r'../newtg'
 if not os.path.exists(output_tg_dir):
     os.mkdir(output_tg_dir)
 
