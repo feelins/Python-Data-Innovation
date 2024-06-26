@@ -14,9 +14,8 @@ import pandas as pd
 import os
 
 
-
 total_logs = []
-pd.options.mode.chained_assignment = None # 会有一个worning
+pd.options.mode.chained_assignment = None # 会有一个warning
 _input_excel_file = r'Part-02/P02_007_Python_for_Data_Analysis/Chap06/test.xlsx'
 xlsx = pd.ExcelFile(_input_excel_file)
 # 这里sheet_name可以用名字，也可以用索引

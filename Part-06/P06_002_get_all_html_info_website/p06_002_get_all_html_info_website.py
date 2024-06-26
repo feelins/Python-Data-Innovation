@@ -27,6 +27,7 @@ def get_page_content(url):
         response = requests.get(url)
         tmp_content = response.content
         response.close()
+        
         return tmp_content
     except requests.exceptions.RequestException as e:
         print("请求出错:", e)
@@ -53,7 +54,7 @@ def save_page_content(url, page_content):
     if len(filename) < 5 or (len(filename) >= 5 and filename[-5:] != '.html'):
         filename += '.html'
     filename = filename.replace('https://', '').replace('/', '_')
-    save_filename = r'D:\003_PythonCode\download\dl_data\\' + filename
+    save_filename = r'\dl_data\\' + filename
     # if os.path.exists(save_filename):
     #     return
     with open(save_filename, 'wb') as file:
@@ -64,7 +65,9 @@ def crawl_website(url, max_depth):
     visited = set()
 
     def helper(url, depth):
-        if url in visited or url in ['javascript:;', 'javascript:void(0);'] or url.find('xueshu.com') == -1 or depth > max_depth:
+        # if url in visited or url in ['javascript:;', 'javascript:void(0);'] or url.find('xueshu.com') == -1 or depth > max_depth:
+        #     return
+        if url in visited or depth > max_depth:
             return
         visited.add(url)
         print(url)
@@ -80,7 +83,7 @@ def crawl_website(url, max_depth):
     helper(url, 0)
 
 # 设置初始的 URL
-initial_url = 'https://www.xueshu.com'
+initial_url = 'https://www.researchgate.net/topics'
 max_depth = 3
 
 # 开始爬取网站
