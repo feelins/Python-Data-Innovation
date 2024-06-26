@@ -51,9 +51,9 @@ if __name__ == '__main__':
     cantonese
     shanghai
     """
-    input_pinyin_file = r'E:\Data_ArcticPhonetics\20240410-fatiaozhang\list_pinyin.txt'
-    input_wav_dir = r'E:\Data_ArcticPhonetics\20240410-fatiaozhang\录音标注\ftc_wavs'
+    input_pinyin_file = r'list_pinyin.txt'
+    input_wav_dir = r'ftc_wavs'
 
-    output_lab_align_path = r'E:\Data_ArcticPhonetics\20240410-fatiaozhang\gen_labels_20240610'
+    output_lab_align_path = r'gen_labels_20240610'
     genDictLabWord(input_pinyin_file, output_lab_align_path, input_wav_dir)
     print('Done!')
