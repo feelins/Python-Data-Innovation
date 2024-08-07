@@ -15,6 +15,7 @@ import logging, time
 import os, sys
 import zipfile
 from datetime import datetime
+import json
 
 
 def getFileSize(_file_path):
@@ -115,8 +116,10 @@ def statsFile(_input_path, _input_data_name, _input_data_batch, _target_dir, _ou
     result_json['metas'] = str(uniq_paths)
     
 
+    # with open(_out_meta_file, 'w', encoding='utf-8') as wid:
+    #     wid.writelines(str(result_json))
     with open(_out_meta_file, 'w', encoding='utf-8') as wid:
-        wid.writelines(str(result_json))
+        wid.writelines([json.dumps(x, ensure_ascii=False, separators=(',', ':')) + '\n' for x in [result_json]])
 
 
 def readFiles(_input_path):
