@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Part-03/python_sound_open-master
+Part-03/-Speech-signal-processing-experiment-tutorial-_python-master
+test_data/
+TEMP/
