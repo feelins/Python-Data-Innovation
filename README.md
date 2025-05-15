@@ -8,11 +8,7 @@
 说明：每一部分为一个主题，第一部分适合初学者练手；第二部分每一小部分为一个主题；第三部分为；  
 
 
-## 第〇部分 相关文档
 
-* [Ubuntu 20.04.3 Anaconda安装及Python多版本虚拟环境配置](https://blog.csdn.net/shaopengfei/article/details/123440125)
-* [VS Code中使用Python相对路径问题](https://blog.csdn.net/shaopengfei/article/details/123454659)
-* [更优雅熟练的使用git-学习记录](https://blog.csdn.net/shaopengfei/article/details/123955385)
 ## 第一部分 入门脚本
 本部分的脚本多为10行以内的代码量，主要目的是针对一个小小的知识点，了解一个概念或者一个用法。更适合于学习者了解某一个点的语法知识。   
 
@@ -33,13 +29,6 @@
 | [P01-012](Part-01/src/p01_012_string_upper_lower_title.py) | * 字符串的大写，小写，第一个字母大写用法 | [阅读原文] | - | 
 | [P01-013](Part-01/src/p01_013_something_about_function.py) | 理解一些关于函数的概念<br>* 函数的对象特性，也可以赋值，也可以当作参数，返回值也可以是函数<br>* 函数也可以在字典里当参数使用 | [阅读原文] | - | 
 | [P01-014](Part-01/src/p01_014_join_string.py) | 字符串连接，加号和join的区别<br>* 在连接字符串数组的时候，我们应考虑优先使用join | [阅读原文] | - | 
-
-## 第二部分 简单功能脚本
-* 本部分的代码多为能实现一个简单的小功能。 
-
-
-| 分类目录  | 知识点 | 详情阅读 | 应用举例 |  
-| :-------: | :------------- | :---------: | :------------- | 
 | [P02-001](Part-02/P02_001_ProgressBar) | <font color=orange>进度条的一些实现形式</font><br>* p02_001_alive_progress_bar.py, 有一些动画效果的进度条<br>* p02_001_normal_progress_bar.py, 普通进度条<br>* p02_001_progress_bar_iterations.py, 用于定义迭代次数的进度条<br>* p02_001_progress_bar_with_time.py, 带时间进度条<br>* p02_001_tqdm_progress_bar.py, tqdm进度条<br>  | [阅读原文] | - | 
 | [P02-002](Part-02/P02_002_) | <font color=orange></font> | [阅读原文] | - | 
 | [P02-003](Part-02/P02_003_FileNameOrder/p02_003_001_file_name_order.py) | <font color=orange>文件名排序问题</font><br> * 文件名可以按包含的数字排序，而不是按整个文件名字符串排序 | [阅读原文](https://blog.csdn.net/shaopengfei/article/details/123455273) | - | 
@@ -49,14 +38,16 @@
 | [P02-007](Part-02/P02_007_Python_for_Data_Analysis)  | <font color=orange>《Python for Data Analysis》学习记录</font> | [阅读原文] | - |
 
 
-## 第三部分 音频处理
+## 第二部分 音频处理
 
 | 分类目录  | 知识点 | 详情阅读 | 应用举例 |  
 | :----------: | :------------- | :---------: | :------------- | 
 | [P03-001](Part-03/P03_001_read_wav/p03_001_read_wavform.py) | * 基本的读取wav的操作 |  [阅读原文] | - | 
-| [P03-002](Part-03/P03_002_wav_duration/p03_002_compute_wav_duration.py) |* 计算一个音频目录里的wav文件的总时长和每个文件的时长。 | * 基本的读取wav的操作 |  [阅读原文] | - | 
+| [P03-002](Part-03/P03_002_wav_duration/p03_002_compute_wav_duration.py) |* 计算一个音频目录里的wav文件的总时长和每个文件的时长。 | * 基本的读取wav的操作 |  [阅读原文] | - |
+| [P05-001](Part-05/P05_001_check_file_numbers/p05_001_check_file_numbers.py)  |* 检查两个目录里文件对应情况，分别保存两个目录都有的文件，<br>每个目录独有的文件，以及上述文件的log|  [阅读原文](https://blog.csdn.net/shaopengfei/article/details/123554296) | - | 
+| [P05-002](Part-05/P05_002_pitch_distance)  |* 通过基频曲线的距离做一个声调判别器|  [阅读原文](https://blog.csdn.net/shaopengfei/article/details/124058801) | - |  
 
-## 第四部分 文本处理
+## 第三部分 文本处理
 
 | 分类目录  | 知识点 | 详情阅读 | 应用举例 |  
 | :----------: | :------------- | :---------: | :------------- | 
@@ -64,21 +55,21 @@
 | [P04-002](Part-04/P04_002_Split_Text)| 对一个有几列的文本，通过某种分割符分别保存|  [阅读原文] | - | 
 
 
-## 第五部分 Praat标注相关
-
-| 分类目录  | 知识点 | 详情阅读 | 应用举例 |  
-| :----------: | :------------- | :---------: | :------------- | 
-| [P05-001](Part-05/P05_001_check_file_numbers/p05_001_check_file_numbers.py)  |* 检查两个目录里文件对应情况，分别保存两个目录都有的文件，<br>每个目录独有的文件，以及上述文件的log|  [阅读原文](https://blog.csdn.net/shaopengfei/article/details/123554296) | - | 
-| [P05-002](Part-05/P05_002_pitch_distance)  |* 通过基频曲线的距离做一个声调判别器|  [阅读原文](https://blog.csdn.net/shaopengfei/article/details/124058801) | - | 
-
-## 第六部分 数据相关
+## 第四部分 数据综合处理相关
 
 | 分类目录  | 知识点 | 详情阅读 | 应用举例 |  
 | :-------: | :------------- | :---------: | :------------- | 
 | [P06-001](Part-06/P06_001_download_douban_info/p06_001_download_douban_book_movie_list.py)  |* 获取豆瓣的读书和影视列表|  [阅读原文]() | - | 
 | [P06-002](Part-06/P06_002_get_all_html_info_website/p06_002_get_all_html_info_website.py)  |* 获取某网站所有网页的内容|  [阅读原文]() | - | 
 
+## 第五部分 api调用
+
 ## 参考文档
 * [Python - 100天从新手到大师](https://github.com/jackfrued/Python-100-Days)
+## 第〇部分 相关文档
+
+* [Ubuntu 20.04.3 Anaconda安装及Python多版本虚拟环境配置](https://blog.csdn.net/shaopengfei/article/details/123440125)
+* [VS Code中使用Python相对路径问题](https://blog.csdn.net/shaopengfei/article/details/123454659)
+* [更优雅熟练的使用git-学习记录](https://blog.csdn.net/shaopengfei/article/details/123955385)
 
 ## 索引此项目请参考
